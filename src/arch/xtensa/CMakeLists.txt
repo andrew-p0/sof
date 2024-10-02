@@ -20,6 +20,8 @@ elseif(CONFIG_ACP_6_3)
         set(platform_folder amd/acp_6_3)
 elseif(CONFIG_ACP_7_0)
         set(platform_folder amd/acp_7_0)
+elseif(CONFIG_MT8168)
+        set(platform_folder mt8168)
 elseif(CONFIG_MT8186)
         set(platform_folder mt8186)
 elseif(CONFIG_MT8188)
@@ -479,7 +481,7 @@ set(UNSIGNED_RI imx8 imx8x imx8m imx8ulp)
 # AMD
 list(APPEND UNSIGNED_RI rn rmb vangogh acp_6_3 acp_7_0)
 # MediaTek
-list(APPEND UNSIGNED_RI mt8186 mt8188 mt8195 mt8196)
+list(APPEND UNSIGNED_RI mt8168 mt8186 mt8188 mt8195 mt8196)
 
 if(${fw_name} IN_LIST UNSIGNED_RI) # mere copy
 	add_custom_command(OUTPUT reproducible.ri
