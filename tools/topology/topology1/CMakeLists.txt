@@ -38,13 +38,6 @@ set(TPLGS
 	"sof-imx8-wm8960\;sof-imx8-eq-fir-wm8960\;-DCODEC=wm8960\;-DRATE=48000\;-DPPROC=eq-fir-volume\;-DSAI_INDEX=1"
 	"sof-imx8-wm8960\;sof-imx8-eq-fir-wm8962\;-DCODEC=wm8962\;-DRATE=48000\;-DPPROC=eq-fir-volume\;-DSAI_INDEX=1"
 	"sof-imx8-wm8960\;sof-imx8-drc-wm8960\;-DCODEC=wm8960\;-DRATE=48000\;-DPPROC=drc\;-DSAI_INDEX=1"
-	"sof-imx8-src-wm8960\;sof-imx8-src-wm8960\;-DCODEC=wm8960\;-DRATE=48000\;-DPPROC=src\;-DSAI_INDEX=1"
-	"sof-imx8-src-wm8960\;sof-imx8-src-wm8962\;-DCODEC=wm8962\;-DRATE=48000\;-DPPROC=src\;-DSAI_INDEX=1"
-	"sof-imx8-src-cs42888\;sof-imx8-src-cs42888"
-	"sof-imx8-compr-pcm-wm8960\;sof-imx8-compr-pcm-wm8960"
-	"sof-imx8-compr-pcm-cap-wm8960\;sof-imx8-compr-pcm-cap-wm8960"
-	"sof-imx8-compr-wm8960\;sof-imx8-compr-wm8960\;-DCODEC=wm8960\;-DRATE=48000"
-	"sof-imx8-compr-wm8960\;sof-imx8-compr-wm8962\;-DCODEC=wm8962\;-DRATE=48000"
 	## end i.MX8 (i.MX8QM and i.MX8QXP) topologies
 
 	## i.MX8MP topologies
@@ -64,12 +57,6 @@ set(TPLGS
 	"sof-imx8-wm8960\;sof-imx8mp-eq-fir-wm8962\;-DCODEC=wm8962\;-DRATE=48000\;-DPPROC=eq-fir-volume\;-DSAI_INDEX=3\;-DDMA_DOMAIN"
 	"sof-imx8-wm8960\;sof-imx8mp-gui-components-wm8960\;-DCODEC=wm8960\;-DRATE=48000\;-DPPROC=gui-components\;-DSAI_INDEX=3\;-DDMA_DOMAIN"
 	"sof-imx8-wm8960\;sof-imx8mp-drc-wm8960\;-DCODEC=wm8960\;-DRATE=48000\;-DPPROC=drc\;-DSAI_INDEX=3\;-DDMA_DOMAIN"
-	"sof-imx8-src-wm8960\;sof-imx8mp-src-wm8960\;-DCODEC=wm8960\;-DRATE=48000\;-DPPROC=src\;-DSAI_INDEX=3\;-DDMA_DOMAIN"
-	"sof-imx8-src-wm8960\;sof-imx8mp-src-wm8962\;-DCODEC=wm8962\;-DRATE=48000\;-DPPROC=src\;-DSAI_INDEX=3\;-DDMA_DOMAIN"
-	"sof-imx8mp-compr-pcm-wm8960\;sof-imx8mp-compr-pcm-wm8960"
-	"sof-imx8mp-compr-pcm-cap-wm8960\;sof-imx8mp-compr-pcm-cap-wm8960"
-	"sof-imx8mp-compr-wm8960\;sof-imx8mp-compr-wm8960\;-DCODEC=wm8960\;-DRATE=48000"
-	"sof-imx8mp-compr-wm8960\;sof-imx8mp-compr-wm8962\;-DCODEC=wm8962\;-DRATE=48000"
 	## end i.MX8MP topologies
 
 	## i.MX8ULP topologies
@@ -83,10 +70,6 @@ set(TPLGS
 	"sof-imx93-wm8962\;sof-imx93-wm8962\;-DPPROC=volume"
 	## end i.MX93 topologies
 
-	## i.MX95 topologies
-	"sof-imx95-wm8962\;sof-imx95-wm8962\;-DPPROC=volume"
-	"sof-imx95-wm8962\;sof-imx95-passthrough-wm8962\;-DPPROC=passthrough"
-	## end i.MX95 topologies
 
 	"sof-mt8195-mt6359-rt1019-rt5682\;sof-mt8195-mt6359-rt1019-rt5682"
 	"sof-mt8195-mt6359-rt1019-rt5682\;sof-mt8195-mt6359-rt1019-rt5682-dts\;-DDTS=`DTS'"
