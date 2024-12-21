@@ -120,6 +120,12 @@ case "$platform" in
 	;;
 
     # Mediatek
+    mt8168)
+	PLATFORM="mt8168"
+	XTENSA_CORE="hifi4_Aquila_E2_PROD"
+	HOST="xtensa-mt8168-elf"
+	TOOLCHAIN_VER="RG-2018.9-linux"
+	;;
     mt8186)
 	XTENSA_CORE="hifi5_7stg_I64D128"
 	HOST="xtensa-mt8186-elf"
