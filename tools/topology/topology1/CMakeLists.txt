@@ -98,6 +98,8 @@ set(TPLGS
 	"sof-mt8186-mt6366\;sof-mt8186-mt6366-rt1019-rt5682s-waves\;-DWAVES=1"
 	"sof-mt8188-mt6359\;sof-mt8188"
 	"sof-mt8188-mt6359\;sof-mt8188-waves\;-DWAVES=1"
+	"sof-mt8168-mt6357\;sof-mt8168"
+	"sof-mt8168-mt6357\;sof-mt8168-waves\;-DWAVES=1"
 
 	"sof-acp-renoir\;sof-acp"
 	"sof-rn-rt5682-rt1019\;sof-rn-rt5682-rt1019"
